@@ -1,0 +1,11 @@
+const express = require('express')
+const SpaceX = require('./spaceX')
+const {getEngineers} = require('./controller/engineers')
+const path = require('path')
+const app = express()
+app.use(express.static('pugcoin'))
+app.set('view engine', 'pug')
+app.get('/', getEngineers)
+app.listen(2026, () => {
+    console.log('it is 2026')
+})

@@ -1,6 +1,6 @@
 const engineers = require('../spaceX.js')
 
- const getEngineers = (req,res) => {
+ const getSpaceX = (req,res) => {
      return res.render('index')
  }
  const getTeam = (req,res) => {
@@ -27,4 +27,4 @@ const engineers = require('../spaceX.js')
           .send(recentlyAdded)
  }
 
- module.exports = {getEngineers, donotEnter, getTeam,addengineer }
+ module.exports = {getSpaceX, donotEnter, getTeam,addengineer }

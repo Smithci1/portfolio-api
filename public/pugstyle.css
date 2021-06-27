@@ -28,7 +28,7 @@
     color: white;
     animation: neon 3s infinite;
   }
-  h3{margin: calc(20vh - 10px) auto 0 auto;
+  h3{margin: calc(10vh - 10px) auto 0 auto;
     font-size: 40px;
     text-transform: uppercase;
     font-family: "Archivo Black", "Archivo", sans-serif;
@@ -118,4 +118,50 @@
        
       color:slategray;
        animation:neon forwards;}
+  
+p {
+  font-family: cast iron;
+  color:inherit;
+  margin: calc(5vh - 10px) auto 0 auto;
+font-size: 65px;
+text-transform: uppercase;
+font-weight: normal;
+display: block;
+height: auto;
+text-align: left;
+color: white;
+animation: neon 1s infinite;
+border-left:  whitesmoke solid ;
+border-right:  whitesmoke solid;
+border-bottom:  whitesmoke solid;
+border-top: whitesmoke solid;
+
+}
+p1, p2, p3, tr {
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  display:block ;
+  height:auto;
+  color: rgb(247, 6, 6);
+animation: neon 3s;
+text-align: left;
+
+}
+p3 {
+  border-bottom: solid whitesmoke;
+
+}
+li {  font-family: "Archivo Black", "Archivo", sans-serif;
+  display:block ;
+  height:auto;
+  color: whitesmoke;
+animation: neon .1s;
+}
+ul {
+  border-left: solid whitesmoke;
+  border-right: solid whitesmoke;
+  border-bottom: solid whitesmoke;
+  border-top: solid whitesmoke;
+
+}
+
  
